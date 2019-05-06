@@ -95,8 +95,6 @@ function basedirname {
     fi
 }
 
-export PRO_PATH=$PATH
-
 function cds {
   project=$1
   oldIFS=$IFS
@@ -112,7 +110,7 @@ function cds {
   fi
 }
 
-compctl -/ -W "(`echo $PRO_PATH | tr ":" " "`)" cdtest
+compctl -/ -W "(`echo $PRO_PATH | tr ":" " "`)" cds
 function gitout {
  current_branch=`git rev-parse --abbrev-ref HEAD` && git checkout master && git branch -D $current_branch && git remote prune origin && git fetch upstream && git fetch origin && git reset --ha     rd upstream/master && git push && cap uat deploy
 }
