@@ -159,7 +159,7 @@ if [ -f ~/post.zshrc ]; then
   source ~/post.zshrc
 fi
 
-if [-f ~/alias.zshrc ]; then
+if [ -f ~/alias.zshrc ]; then
   source ~/alias.zshrc
 fi
 
