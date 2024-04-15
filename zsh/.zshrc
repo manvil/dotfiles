@@ -162,4 +162,3 @@ fi
 if [ -f ~/alias.zshrc ]; then
   source ~/alias.zshrc
 fi
-
