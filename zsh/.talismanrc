@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: zsh/.zshrc
+  checksum: f53d1f6ae136b58f0e8c92194eeec2b4b716803b2576d70497973f852bc0e590
+version: ""
