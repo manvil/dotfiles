@@ -58,7 +58,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="$PATH:$HOME/.rvm/bin:$HOME/.rbenv/shims"
+#export PATH="$PATH:$HOME/.rvm/bin:$HOME/.rbenv/shims"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
